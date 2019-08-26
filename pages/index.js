@@ -1,88 +1,59 @@
-import React from 'react'
-import Link from 'next/link'
-import Head from 'next/head'
-import Nav from '../components/nav'
+import React from "react"
+import Head from "next/head"
 
 const Home = () => (
   <div>
     <Head>
-      <title>Home</title>
+      <title>Devairoma</title>
     </Head>
 
-    <Nav />
-
-    <div className='hero'>
-      <h1 className='title'>Welcome to Next.js!</h1>
-      <p className='description'>
-        To get started, edit <code>pages/index.js</code> and save to reload.
-      </p>
-
-      <div className='row'>
-        <Link href='https://github.com/zeit/next.js#setup'>
-          <a className='card'>
-            <h3>Getting Started &rarr;</h3>
-            <p>Learn more about Next.js on GitHub and in their examples.</p>
-          </a>
-        </Link>
-        <Link href='https://github.com/zeit/next.js/tree/master/examples'>
-          <a className='card'>
-            <h3>Examples &rarr;</h3>
-            <p>Find other example boilerplates on the Next.js GitHub.</p>
-          </a>
-        </Link>
-        <Link href='https://github.com/zeit/next.js'>
-          <a className='card'>
-            <h3>Create Next App &rarr;</h3>
-            <p>Was this tool helpful? Let us know how we can improve it!</p>
-          </a>
-        </Link>
+    <div className="container">
+      <div className="hero">
+        <h1 className="title">¡Hola! 👋</h1>
+        <p className="subtitle">
+          Mi nombre es Aitor Rodríguez y soy 👨‍💻<strong>Frontend Engineer</strong> en Adevinta y 👮Co-Fundador y Administrador de <a href="https://www.mtberos.com" target="_blank">MTBeros</a>.
+        </p>
       </div>
     </div>
 
     <style jsx>{`
+      :global(*) {
+        box-sizing: border-box;
+      }
+      :global(body) {
+        box-sizing: border-box;
+        font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
+          Helvetica, sans-serif;
+        margin: 0;
+      }
+      .container {
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        padding: 15px;
+      }
       .hero {
-        width: 100%;
         color: #333;
+        display: block;
+        margin: auto;
+        max-width: 650px;
       }
       .title {
-        margin: 0;
-        width: 100%;
-        padding-top: 80px;
-        line-height: 1.15;
         font-size: 48px;
+        line-height: 1.15;
+        margin: 0;
       }
-      .title,
-      .description {
-        text-align: center;
+      .subtitle {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.50;
       }
-      .row {
-        max-width: 880px;
-        margin: 80px auto 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-      }
-      .card {
-        padding: 18px 18px 24px;
-        width: 220px;
-        text-align: left;
+      a {
+        color: #1991ff;
         text-decoration: none;
-        color: #434343;
-        border: 1px solid #9b9b9b;
       }
-      .card:hover {
-        border-color: #067df7;
-      }
-      .card h3 {
-        margin: 0;
-        color: #067df7;
-        font-size: 18px;
-      }
-      .card p {
-        margin: 0;
-        padding: 12px 0 0;
-        font-size: 13px;
-        color: #333;
+      a:hover {
+        text-decoration: underline;
       }
     `}</style>
   </div>
