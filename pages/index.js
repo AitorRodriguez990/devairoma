@@ -5,6 +5,7 @@ const Home = () => (
   <div>
     <Head>
       <title>Devairoma</title>
+      <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/198/male-technologist_1f468-200d-1f4bb.png"></link>
     </Head>
 
     <div className="container">
