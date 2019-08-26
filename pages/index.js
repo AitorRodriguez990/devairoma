@@ -36,7 +36,7 @@ const Home = () => (
         color: #333;
         display: block;
         margin: auto;
-        max-width: 650px;
+        max-width: 750px;
       }
       .title {
         font-size: 48px;
@@ -44,7 +44,7 @@ const Home = () => (
         margin: 0;
       }
       .subtitle {
-        font-size: 24px;
+        font-size: 28px;
         font-weight: 300;
         line-height: 1.50;
       }
