@@ -12,7 +12,7 @@ const Home = () => (
       <div className="hero">
         <h1 className="title">¡Hola! 👋</h1>
         <p className="subtitle">
-          Mi nombre es Aitor Rodríguez y soy 👨‍💻<strong>Frontend Engineer</strong> en Adevinta y 👮Co-Fundador y Administrador de <a href="https://www.mtberos.com" target="_blank">MTBeros</a>.
+          Mi nombre es Aitor Rodríguez. Soy 👨‍💻<strong>Frontend Engineer</strong> en Adevinta y 👮Co-Fundador y Administrador de <a href="https://www.mtberos.com" target="_blank">MTBeros</a>.
         </p>
       </div>
     </div>
