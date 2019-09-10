@@ -35,7 +35,8 @@ const Home = () => (
       .container {
         align-items: center;
         display: flex;
-        height: 100vh;
+        min-height: -webkit-fill-available;
+        min-height: 100vh;
         padding: 15px;
       }
 
