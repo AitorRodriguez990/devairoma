@@ -14,7 +14,7 @@ const Home = () => (
         <div className="welcome">
           <h1 className="title">¡Hola! 👋</h1>
           <p className="subtitle">
-            Mi nombre es Aitor Rodríguez. Soy 👨‍💻 <strong>Frontend Engineer</strong> en Adevinta y 👮 Co-Fundador y Administrador de <a href="https://www.mtberos.com" target="_blank">MTBeros</a>.
+            Mi nombre es Aitor Rodríguez. Soy 👨‍💻 <strong>Frontend Engineer</strong> en <a className="fotocasa" href="https://www.fotocasa.es" target="_blank">Fotocasa</a> y 👮 Co-Fundador y Administrador de <a href="https://www.mtberos.com" target="_blank">MTBeros</a>.
           </p>
         </div>
       </div>
@@ -97,10 +97,30 @@ const Home = () => (
       
       a {
         color: #1991ff;
+        font-weight: 500;
+        position: relative;
         text-decoration: none;
       }
-      a:hover {
-        text-decoration: underline;
+      a:after {
+        background-color: #1991ff;
+        bottom: 1px;
+        content: " ";
+        height: 8px;
+        left: -2px;
+        opacity: 0.3;
+        position: absolute;
+        transition: opacity 0.2s;
+        width: calc(100% + 4px);
+        z-index: -1;
+      }
+      a:hover:after {
+        opacity: 0.5;
+      }
+      a.fotocasa {
+        color: #303ab2;
+      }
+      a.fotocasa:after {
+        background-color: #303ab2;
       }
     `}</style>
   </div>
