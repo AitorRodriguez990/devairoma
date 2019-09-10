@@ -36,7 +36,6 @@ const Home = () => (
         align-items: center;
         display: flex;
         min-height: -webkit-fill-available;
-        min-height: 100vh;
         padding: 15px;
       }
 
