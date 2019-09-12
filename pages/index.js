@@ -4,8 +4,8 @@ import Head from "next/head"
 const Home = () => (
   <div>
     <Head>
-      <title>Aitor Rodríguez | Frontend</title>
-      <meta name="description" content="Soy 👨‍💻 Frontend Developer y 👮 Co-Fundador y Administrador de MTBeros. Aquí te dejo conocerme un poco más."/>
+      <title>Aitor Rodríguez | Frontend Developer</title>
+      <meta name="description" content="Aquí te dejo conocerme un poco más a mí y mi trabajo."/>
       <meta name="author" content="Aitor Rodríguez" />
       <meta http-equiv="Content-Language" content="es" />
       <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/198/male-technologist_1f468-200d-1f4bb.png"></link>
