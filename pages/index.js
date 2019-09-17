@@ -2,6 +2,8 @@ import React from "react"
 import Head from "next/head"
 import {Footer} from '../components/footer'
 
+const sectionClass = 'da-Section'
+
 const Home = () => (
   <div>
     <Head>
@@ -23,6 +25,22 @@ const Home = () => (
         </div>
       </div>
     </div>
+
+    <div className={`${sectionClass} ${sectionClass}--odd`}>
+      <div className={`${sectionClass}-content`}>
+        <h2 className={`${sectionClass}-title`}>Sobre mí 👤</h2>
+        <p className={`${sectionClass}-info`}>
+          <strong>Soy padre</strong> 👶 de un pequeño bicho, <strong>marido</strong> 💍 de una compañera maravillosa, <strong>y una persona muy activa e inquieta al que le encanta disfrutar de su tiempo libre</strong> a través de las salidas al aire libre ⛰️, los viajes ✈️, las películas y las series 📹 y la lectura 📚.
+        </p>
+        <p className={`${sectionClass}-info`}>
+          En lo laboral soy un <strong>apasionado del desarrollo web</strong> con ganas de aprender y mejorar continuamente, y enfoco mi aprendizaje hacia el desarrollo <strong>Frontend</strong> a través de React ⚛️, Javascript 🎮 y CSS 🎨.
+        </p>
+        <p className={`${sectionClass}-info`}>
+         Además, aplico metodología <a href="https://gettingthingsdone.com/" target="_blank">GTD</a> para vivir y trabajar de una manera más organizada y relajada.
+        </p>
+      </div>
+    </div>
+    
     <Footer />
 
     <style jsx>{`
@@ -64,16 +82,52 @@ const Home = () => (
         opacity: 0.5;
       }
 
-      .container {
+      .da-Section {
         align-items: center;
         display: flex;
         min-height: -webkit-fill-available;
         padding: 15px;
       }
+      @media (min-width: 768px) {
+        .da-Section {
+          padding: 30px 15px;
+        }
+      }
+      .da-Section--odd {
+        background-color: #fff;
+      }
+
+      .da-Section-content {
+        margin: auto;
+        max-width: 800px;
+      }
+
+      .da-Section-title {
+        font-size: 24px;
+        margin: 0;
+      }
+      @media (min-width: 768px) {
+        .da-Section-title {
+          font-size: 36px;
+        }
+      }
+
+      .da-Section-info {
+        font-size: 18px;
+        line-height: 2;
+        margin-bottom: 0;
+        margin-top: 15px;
+        text-align: justify;
+      }
+
+      .container {
+        align-items: center;
+        display: flex;
+        min-height: -webkit-fill-available;
+      }
 
       .hero {
         align-items: center;
-        
         margin: auto;
         max-width: 800px;
         text-align: center;
@@ -110,6 +164,18 @@ const Home = () => (
         line-height: 1.15;
         margin: 0;
       }
+      .title--section {
+        font-size: 24px;
+      }
+      @media (min-width: 768px) {
+        .title {
+          font-size: 48px;
+        }
+        .title--section {
+          font-size: 36px;
+        }
+      }
+
       .subtitle {
         font-size: 20px;
         font-weight: 300;
@@ -117,11 +183,7 @@ const Home = () => (
         margin-bottom: 0;
         margin-top: 15px;
       }
-
       @media (min-width: 768px) {
-        .title {
-          font-size: 48px;
-        }
         .subtitle {
           font-size: 28px;
         }
