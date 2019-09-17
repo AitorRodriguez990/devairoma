@@ -1,5 +1,6 @@
 import React from "react"
 import Head from "next/head"
+import {Footer} from '../components/footer'
 
 const Home = () => (
   <div>
@@ -22,17 +23,45 @@ const Home = () => (
         </div>
       </div>
     </div>
+    <Footer />
 
     <style jsx>{`
       :global(*) {
         box-sizing: border-box;
       }
+      :global(html) {
+        scroll-behavior: smooth;
+      }
       :global(body) {
         background-color: #f1f1f1;
         box-sizing: border-box;
+        color: #333;
         font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
           Helvetica, sans-serif;
         margin: 0;
+      }
+
+      :global(a) {
+        color: #1991ff;
+        font-weight: 500;
+        position: relative;
+        text-decoration: none;
+        transition: opacity 0.2s;
+      }
+      :global(a:after) {
+        background-color: #1991ff;
+        bottom: 1px;
+        content: " ";
+        height: 8px;
+        left: -2px;
+        opacity: 0.3;
+        position: absolute;
+        transition: opacity 0.3s;
+        width: calc(100% + 4px);
+        z-index: -1;
+      }
+      :global(a:hover:after) {
+        opacity: 0.5;
       }
 
       .container {
@@ -44,7 +73,7 @@ const Home = () => (
 
       .hero {
         align-items: center;
-        color: #333;
+        
         margin: auto;
         max-width: 800px;
         text-align: center;
@@ -98,27 +127,6 @@ const Home = () => (
         }
       }
       
-      a {
-        color: #1991ff;
-        font-weight: 500;
-        position: relative;
-        text-decoration: none;
-      }
-      a:after {
-        background-color: #1991ff;
-        bottom: 1px;
-        content: " ";
-        height: 8px;
-        left: -2px;
-        opacity: 0.3;
-        position: absolute;
-        transition: opacity 0.2s;
-        width: calc(100% + 4px);
-        z-index: -1;
-      }
-      a:hover:after {
-        opacity: 0.5;
-      }
       a.fotocasa {
         color: #303ab2;
       }
