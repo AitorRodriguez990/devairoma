@@ -17,8 +17,8 @@ export const Footer = () => {
 
       <style jsx>{`
         .da-Footer {
-          background: #fff;
-          padding: 30px 0;
+          background: #ffca1e;
+          padding: 50px 0;
           text-align: center;
         }
         
@@ -44,7 +44,7 @@ export const Footer = () => {
 
         .da-Footer-social {
           list-style: none;
-          margin: 15px auto 0;
+          margin: 25px auto 0;
           padding: 0;
         }
         .da-Footer-social li {
