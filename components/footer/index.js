@@ -24,7 +24,7 @@ export const Footer = () => {
         
         .da-Footer-content {
           margin: auto;
-          max-width: 800px;
+          max-width: 820px;
         }
 
         .da-Footer-content > a {

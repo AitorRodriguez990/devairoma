@@ -30,13 +30,13 @@ const Home = () => (
       <div className={`${sectionClass}-content`}>
         <h2 className={`${sectionClass}-title`}>Sobre mí 👤</h2>
         <p className={`${sectionClass}-info`}>
-          <strong>Soy padre</strong> 👶 de un pequeño bicho, <strong>marido</strong> 💍 de una compañera maravillosa, <strong>y una persona muy activa e inquieta al que le encanta disfrutar de su tiempo libre</strong> a través de las salidas al aire libre ⛰️, los viajes ✈️, las películas y las series 📹 y la lectura 📚.
+          <strong>Soy padre</strong> de un pequeño bicho 👶, <strong>marido</strong> de una compañera maravillosa 💍, <strong>y una persona muy activa e inquieta al que le encanta disfrutar de su tiempo</strong> a través de las salidas al aire libre ⛰️, los viajes ✈️, las películas y las series 📹 y la lectura 📚.
         </p>
         <p className={`${sectionClass}-info`}>
-          En lo laboral soy un <strong>apasionado del desarrollo web</strong> con ganas de aprender y mejorar continuamente, y enfoco mi aprendizaje hacia el desarrollo <strong>Frontend</strong> a través de React ⚛️, Javascript 🎮 y CSS 🎨.
+          En lo laboral soy un <strong>apasionado del desarrollo web</strong> con ganas de aprender y mejorar continuamente, y enfoco mi aprendizaje hacia el desarrollo <strong>Frontend</strong> a través de React ⚛️, Javascript 🎮 y CSS 🎨. Además, <strong>me encanta trabajar en equipo y ayudar a mis compañeros</strong> en todo lo que me sea posible.
         </p>
         <p className={`${sectionClass}-info`}>
-         Además, aplico metodología <a href="https://gettingthingsdone.com/" target="_blank">GTD</a> para vivir y trabajar de una manera más organizada y relajada.
+         Aplico metodología <a href="https://gettingthingsdone.com/" target="_blank">GTD</a> en mi día a día, para vivir y trabajar de la manera más organizada y relajada posible.
         </p>
       </div>
     </div>
@@ -98,12 +98,13 @@ const Home = () => (
       }
 
       .da-Section-content {
+        font-weight: 300;
         margin: auto;
-        max-width: 800px;
+        max-width: 820px;
       }
 
       .da-Section-title {
-        font-size: 24px;
+        font-size: 28px;
         margin: 0;
       }
       @media (min-width: 768px) {
@@ -114,10 +115,15 @@ const Home = () => (
 
       .da-Section-info {
         font-size: 18px;
-        line-height: 2;
+        line-height: 1.5;
         margin-bottom: 0;
         margin-top: 15px;
         text-align: justify;
+      }
+      @media (min-width: 768px) {
+        .da-Section-info {
+          line-height: 2;
+        }
       }
 
       .container {
@@ -129,7 +135,8 @@ const Home = () => (
       .hero {
         align-items: center;
         margin: auto;
-        max-width: 800px;
+        max-width: 820px;
+        padding: 0 15px;
         text-align: center;
       }
       @media (min-width: 768px) {
