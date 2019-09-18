@@ -8,7 +8,7 @@ const Home = () => (
   <div>
     <Head>
       <title>Aitor Rodríguez | Frontend Developer</title>
-      <meta name="description" content="Aquí te dejo conocerme un poco más a mí y mi trabajo."/>
+      <meta name="description" content="Mi nombre es Aitor Rodríguez y soy 👨‍💻 Frontend Engineer en Fotocasa y 👮 Co-Fundador y Administrador de MTBeros."/>
       <meta name="author" content="Aitor Rodríguez" />
       <meta http-equiv="Content-Language" content="es" />
       <link rel="icon" href="./static/favicon.png"></link>
