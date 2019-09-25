@@ -1,9 +1,11 @@
 import React from 'react'
-
 import {Section} from '../../components/section'
+import './index.scss'
+
+const baseClass = 'da-AboutMe'
 
 export const AboutMe = () => (
-  <Section isOdd title="Sobre mí 👤">
+  <Section className={baseClass} isOdd title="Sobre mí 👤">
     <p>
       <strong>Soy padre</strong> de un pequeño bicho 👶, <strong>marido</strong>{' '}
       de una compañera maravillosa 💍,{' '}
