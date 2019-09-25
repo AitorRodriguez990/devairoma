@@ -9,12 +9,7 @@ export const Section = ({content = [], isOdd = false, title = ''}) => {
     <div className={`${baseClass} ${isOdd ? `${baseClass}--odd` : ''}`}>
       <div className={`${baseClass}-content`}>
         <h2 className={`${baseClass}-title`}>{title}</h2>
-        {content.map(con => (
-          <p
-            className={`${baseClass}-info`}
-            dangerouslySetInnerHTML={{__html: con}}
-          />
-        ))}
+        {content}
       </div>
     </div>
   )
