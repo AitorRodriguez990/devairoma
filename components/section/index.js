@@ -4,19 +4,19 @@ import './index.scss'
 
 const baseClass = 'da-Section'
 
-export const Section = ({content = [], isOdd = false, title = ''}) => {
+export const Section = ({children, isOdd = false, title = ''}) => {
   return (
     <div className={`${baseClass} ${isOdd ? `${baseClass}--odd` : ''}`}>
       <div className={`${baseClass}-content`}>
         <h2 className={`${baseClass}-title`}>{title}</h2>
-        {content}
+        {children}
       </div>
     </div>
   )
 }
 
 Section.propTypes = {
-  content: PropTypes.array,
+  children: PropTypes.any,
   isOdd: PropTypes.bool,
   title: PropTypes.string
 }
