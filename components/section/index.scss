@@ -1,0 +1,42 @@
+.da-Section {
+  align-items: center;
+  display: flex;
+  min-height: -webkit-fill-available;
+  min-height: 100vh;
+  padding: 15px;
+
+  @media (min-width: 768px) {
+    padding: 30px 15px;
+  }
+
+  &--odd {
+    background-color: #fff;
+  }
+
+  &-content {
+    font-weight: 300;
+    margin: auto;
+    max-width: 820px;
+  }
+
+  &-title {
+    font-size: 28px;
+    margin: 0;
+
+    @media (min-width: 768px) {
+      font-size: 36px;
+    }
+  }
+
+  &-info {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 15px;
+    text-align: justify;
+
+    @media (min-width: 768px) {
+      line-height: 2;
+    }
+  }
+}
