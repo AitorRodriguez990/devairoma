@@ -3,6 +3,7 @@ import Head from 'next/head'
 
 import '../styles/styles.scss'
 import {AboutMe} from '../sections/aboutMe'
+import {Resources} from '../sections/resources'
 import {Footer} from '../components/footer'
 
 const Home = () => (
@@ -49,6 +50,7 @@ const Home = () => (
     </div>
 
     <AboutMe />
+    <Resources />
 
     <Footer />
 
