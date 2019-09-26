@@ -26,6 +26,18 @@ export const Footer = () => {
               <img src="./static/linkedin.svg" alt="LinkedIn" width="30" />
             </a>
           </li>
+          <li>
+            <a
+              href="https://stackoverflow.com/users/4961667/aitor"
+              target="_blank"
+            >
+              <img
+                src="./static/stack-overflow.svg"
+                alt="Stack overflow"
+                width="30"
+              />
+            </a>
+          </li>
         </ul>
       </div>
     </footer>
