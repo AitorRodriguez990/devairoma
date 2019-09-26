@@ -77,21 +77,17 @@ const Home = () => (
       .avatar {
         border: 10px solid #fff;
         border-radius: 30px;
-        height: 150px;
+        flex: 0 0 150px;
         margin-bottom: 20px;
         width: 150px;
       }
       @media (min-width: 768px) {
         .avatar {
-          height: 200px;
+          flex-basis: 200px;
           margin-bottom: 0;
           margin-right: 20px;
           width: 200px;
         }
-      }
-
-      .welcome {
-        display: block;
       }
 
       .title {
