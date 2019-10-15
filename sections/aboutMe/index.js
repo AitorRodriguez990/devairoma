@@ -1,11 +1,12 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import {Section} from '../../components/section'
 import './index.scss'
 
 const baseClass = 'da-AboutMe'
 
-export const AboutMe = () => (
-  <Section className={baseClass} isOdd title="Sobre mí 👤">
+export const AboutMe = ({id = ''}) => (
+  <Section className={baseClass} isOdd title="Sobre mí 👤" id={id}>
     <p>
       <strong>Soy padre</strong> de un pequeño bicho 👶, <strong>marido</strong>{' '}
       de una compañera maravillosa 💍,{' '}
@@ -34,3 +35,7 @@ export const AboutMe = () => (
     </p>
   </Section>
 )
+
+AboutMe.propTypes = {
+  id: PropTypes.string
+}

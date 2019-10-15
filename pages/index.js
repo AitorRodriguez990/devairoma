@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 import '../styles/styles.scss'
+import {Scroll} from '../components/scroll'
 import {AboutMe} from '../sections/aboutMe'
 import {Resources} from '../sections/resources'
 import {Footer} from '../components/footer'
@@ -47,9 +48,10 @@ const Home = () => (
           </p>
         </div>
       </div>
+      <Scroll anchor="#about-me" />
     </div>
 
-    <AboutMe />
+    <AboutMe id="about-me" />
     <Resources />
 
     <Footer />
@@ -66,7 +68,7 @@ const Home = () => (
         align-items: center;
         margin: auto;
         max-width: 820px;
-        padding: 0 15px;
+        padding: 0 15px 100px;
         text-align: center;
       }
       @media (min-width: 768px) {
