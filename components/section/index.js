@@ -7,6 +7,7 @@ const baseClass = 'da-Section'
 export const Section = ({
   children,
   className = '',
+  id,
   isOdd = false,
   title = ''
 }) => {
@@ -15,6 +16,7 @@ export const Section = ({
       className={`${baseClass} ${
         isOdd ? `${baseClass}--odd` : ''
       } ${className}`}
+      id={id}
     >
       <div className={`${baseClass}-content`}>
         <h2 className={`${baseClass}-title`}>{title}</h2>
@@ -27,6 +29,7 @@ export const Section = ({
 Section.propTypes = {
   children: PropTypes.any,
   className: PropTypes.string,
+  id: PropTypes.string,
   isOdd: PropTypes.bool,
   title: PropTypes.string
 }
