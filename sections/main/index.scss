@@ -1,11 +1,8 @@
+$nav-height: 50px;
+
 .da-Main {
-  &-container {
-    align-items: center;
-    display: flex;
-    min-height: -webkit-fill-available;
-    min-height: 100vh;
-  }
-  
+  min-height: calc(100vh - #{$nav-height});
+
   &-hero {
     align-items: center;
     margin: auto;
