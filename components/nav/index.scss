@@ -1,9 +1,13 @@
+$nav-height: 50px;
+
 .da-Nav {
   align-content: center;
   background-color: #ffca1e;
   display: flex;
+  height: $nav-height;
   justify-content: space-between;
-  padding: 15px;
+  line-height: $nav-height;
+  padding: 0 15px;
   position: sticky;
   top: 0;
   z-index: 10;
