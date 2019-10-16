@@ -15,34 +15,6 @@ body {
 }
 
 a {
-  color: #1991ff;
-  font-weight: 500;
-  position: relative;
+  color: #333;
   text-decoration: none;
-  transition: opacity 0.2s;
-
-  &:after {
-    background-color: #1991ff;
-    bottom: 1px;
-    content: " ";
-    height: 8px;
-    left: -2px;
-    opacity: 0.3;
-    position: absolute;
-    transition: opacity 0.3s;
-    width: calc(100% + 4px);
-    z-index: -1;
-  }
-
-  &:hover:after {
-    opacity: 0.5;
-  }
-
-  &.fotocasa {
-    color: #303ab2;
-  }
-  
-  &.fotocasa:after {
-    background-color: #303ab2;
-  }
 }

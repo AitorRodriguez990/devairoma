@@ -1,0 +1,91 @@
+.da-Main {
+  &-container {
+    align-items: center;
+    display: flex;
+    min-height: -webkit-fill-available;
+    min-height: 100vh;
+  }
+  
+  &-hero {
+    align-items: center;
+    margin: auto;
+    max-width: 820px;
+    padding: 0 15px 100px;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      display: flex;
+      text-align: left;
+    }
+  }
+  
+  &-avatar {
+    border: 10px solid #fff;
+    border-radius: 30px;
+    flex: 0 0 150px;
+    margin-bottom: 20px;
+    width: 150px;
+
+    @media (min-width: 768px) {
+      flex-basis: 200px;
+      margin-bottom: 0;
+      margin-right: 20px;
+      width: 200px;
+    }
+  }
+  
+  &-title {
+    font-size: 32px;
+    line-height: 1.15;
+    margin: 0;
+
+    @media (min-width: 768px) {
+      font-size: 48px;
+    }
+  }
+  
+  &-subtitle {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 15px;
+
+    @media (min-width: 768px) {
+      font-size: 28px;
+    }
+  }
+
+  &-link {
+    color: #1991ff;
+    font-weight: 500;
+    position: relative;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  
+    &:after {
+      background-color: #1991ff;
+      bottom: 1px;
+      content: " ";
+      height: 8px;
+      left: -2px;
+      opacity: 0.3;
+      position: absolute;
+      transition: opacity 0.3s;
+      width: calc(100% + 4px);
+      z-index: -1;
+    }
+  
+    &:hover:after {
+      opacity: 0.5;
+    }
+  
+    &--fotocasa {
+      color: #303ab2;
+    }
+    
+    &--fotocasa:after {
+      background-color: #303ab2;
+    }
+  }
+}

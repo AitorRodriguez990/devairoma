@@ -6,22 +6,30 @@
   &-content {
     margin: auto;
     max-width: 820px;
+  }
 
-    > a {
-      color: #000;
-
-      &:after {
-        background-color: #000;
-        height: 6px;
-        left: -1px;
-        opacity: 0.2;
-        width: calc(100% + 2px);
-        z-index: 0;
-
-        &:hover {
-          opacity: 0.4;
-        }
-      }
+  &-link {
+    color: #000;
+    font-weight: 500;
+    position: relative;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  
+    &:after {
+      background-color: #000;
+      bottom: 1px;
+      content: " ";
+      height: 6px;
+      left: -1px;
+      opacity: 0.2;
+      position: absolute;
+      transition: opacity 0.3s;
+      width: calc(100% + 2px);
+      z-index: 0;
+    }
+  
+    &:hover:after {
+      opacity: 0.4;
     }
   }
   

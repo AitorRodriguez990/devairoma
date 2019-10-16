@@ -19,7 +19,7 @@ export const Section = ({
       id={id}
     >
       <div className={`${baseClass}-content`}>
-        <h2 className={`${baseClass}-title`}>{title}</h2>
+        {title && <h2 className={`${baseClass}-title`}>{title}</h2>}
         {children}
       </div>
     </div>

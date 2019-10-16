@@ -1,12 +1,15 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import {Section} from '../../components/section'
 import {Resource} from '../../components/resource'
+
 import './index.scss'
 
 const baseClass = 'da-Resources'
 
-export const Resources = () => (
-  <Section title="Recursos 📚">
+export const Resources = ({id = ''}) => (
+  <Section title="Recursos 📚" id={id}>
     <div className={baseClass}>
       <Resource
         link="https://www.youtube.com/watch?v=7fERX0OXAIY"
@@ -53,3 +56,7 @@ export const Resources = () => (
     </div>
   </Section>
 )
+
+Resources.propTypes = {
+  id: PropTypes.string
+}

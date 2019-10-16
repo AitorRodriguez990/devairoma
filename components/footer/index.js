@@ -8,7 +8,11 @@ export const Footer = () => {
     <footer className={baseClass}>
       <div className={`${baseClass}-content`}>
         Hecho por mí usando{' '}
-        <a href="https://nextjs.org/" target="_blank">
+        <a
+          className={`${baseClass}-link`}
+          href="https://nextjs.org/"
+          target="_blank"
+        >
           Next.js
         </a>
         .
