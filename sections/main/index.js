@@ -20,7 +20,7 @@ export const Main = ({id = ''}) => (
       <div className={`${baseClass}-welcome`}>
         <h1 className={`${baseClass}-title`}>¡Hola! 👋</h1>
         <p className={`${baseClass}-subtitle`}>
-          Mi nombre es Aitor Rodríguez. Soy 👨‍💻{' '}
+          Mi nombre es Aitor Rodríguez y vivo en Barcelona. Soy 👨‍💻{' '}
           <strong>Frontend Engineer</strong> en{' '}
           <a
             className={`${baseClass}-link ${baseClass}-link--fotocasa`}
@@ -29,7 +29,7 @@ export const Main = ({id = ''}) => (
           >
             Fotocasa
           </a>{' '}
-          y 👮 Co-Fundador y Administrador de{' '}
+          y 👮 Cofundador y Administrador de{' '}
           <a
             className={`${baseClass}-link ${baseClass}-link--mtberos`}
             href="https://www.mtberos.com"
