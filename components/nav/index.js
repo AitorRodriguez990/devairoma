@@ -15,6 +15,9 @@ export const Nav = () => {
           <a href="#about-me">Sobre mí</a>
         </li>
         <li className={`${baseClass}-menuItem`}>
+          <a href="#experience">Experiencia</a>
+        </li>
+        <li className={`${baseClass}-menuItem`}>
           <a href="#resources">Recursos</a>
         </li>
       </ul>
