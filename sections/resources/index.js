@@ -9,7 +9,7 @@ import './index.scss'
 const baseClass = 'da-Resources'
 
 export const Resources = ({id = ''}) => (
-  <Section title="Recursos 📚" id={id}>
+  <Section title="Recursos 📚" isOdd id={id}>
     <div className={baseClass}>
       <Resource
         link="https://www.youtube.com/watch?v=7fERX0OXAIY"
