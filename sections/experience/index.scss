@@ -1,0 +1,76 @@
+.da-Experience {
+  &-list {
+    list-style: none;
+    padding: 0;
+
+    &Item {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+
+      &Image {
+        border: 5px solid #fff;
+        border-radius: 20px;
+        flex: 0 0 50px;
+        height: 50px;
+        margin-right: 20px;
+        overflow: hidden;
+        width: 50px;
+
+        @media (min-width: 768px) {
+          flex-basis: 100px;
+          height: 100px;
+          width: 100px;
+        }
+
+        img {
+          margin: 0 auto;
+          width: 40px;
+
+          @media (min-width: 768px) {
+            width: 90px;
+          }
+        }
+      }
+
+      &Content > * {
+        margin-bottom: 8px;
+      }
+
+      &Title {
+        font-size: 20px;
+        font-weight: 400;
+      }
+
+      &Company {
+        font-weight: 600;
+
+        &:before {
+          content: "|";
+          margin: 0 10px;
+        }
+      }
+
+      &Date {
+        font-weight: 200;
+      }
+
+      &Description {
+        line-height: 1.5;
+      }
+
+      &Tech {
+        list-style: none;
+        padding: 3px 0 0;
+
+        li {
+          background-color: #ffca1e;
+          border-radius: 5px;
+          display: inline-block;
+          margin-right: 10px;
+          padding: 2px 5px;
+        }
+      }
+    }
+  }
+}
