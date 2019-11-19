@@ -8,7 +8,7 @@ import './index.scss'
 const baseClass = 'da-AboutMe'
 
 export const AboutMe = ({id = ''}) => (
-  <Section className={baseClass} isOdd title="Sobre mí 👤" id={id}>
+  <Section className={baseClass} isOdd title="Sobre mí 🤔" id={id}>
     <p>
       <strong>Soy padre</strong> de un pequeño bicho 👶, <strong>marido</strong>{' '}
       de una compañera maravillosa 💍,{' '}
