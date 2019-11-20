@@ -6,7 +6,7 @@ export default [
     date: 'Noviembre 2018 - Actualidad',
     description:
       'Frontend Engineer del portal inmobiliario Fotocasa. Trabajando en la mejora e iteración del producto por componentes a través de una metodología de trabajo Kanban.',
-    techs: ['ES6', 'React', 'SASS', 'Cypress', 'Jenkins', 'Git', 'GutHub']
+    techs: ['ES6', 'React', 'SASS', 'Cypress', 'Jenkins', 'Git', 'GitHub']
   },
   {
     role: 'Cofundador y Administrador',
