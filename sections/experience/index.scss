@@ -6,7 +6,7 @@
     &Item {
       display: flex;
       justify-content: center;
-      margin-bottom: 30px;
+      margin: 20px 0 20px;
 
       &Image {
         border: 5px solid #fff;
@@ -67,6 +67,7 @@
           background-color: #ffca1e;
           border-radius: 5px;
           display: inline-block;
+          margin-bottom: 5px;
           margin-right: 10px;
           padding: 2px 5px;
         }

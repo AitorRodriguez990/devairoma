@@ -15,9 +15,9 @@ export const Experience = ({id = ''}) => (
         const itemClass = `${baseClass}-listItem`
 
         return (
-          <li className={itemClass}>
+          <li className={itemClass} key={company}>
             <div className={`${itemClass}Image`}>
-              <img src={logo} alt={company} />
+              {logo && <img src={logo} alt={company} />}
             </div>
             <div className={`${itemClass}Content`}>
               <div className={`${itemClass}Title`}>
@@ -28,7 +28,7 @@ export const Experience = ({id = ''}) => (
               <div className={`${itemClass}Description`}>{description}</div>
               <ul className={`${itemClass}Tech`}>
                 {techs.map(tech => (
-                  <li>{tech}</li>
+                  <li key={tech}>{tech}</li>
                 ))}
               </ul>
             </div>
