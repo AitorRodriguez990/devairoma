@@ -14,10 +14,10 @@ import {Footer} from '../components/footer'
 const Home = () => (
   <div>
     <Head>
-      <title>Aitor Rodríguez | Frontend Developer</title>
+      <title>Aitor Rodríguez - Devairoma | Frontend Engineer</title>
       <meta
         name="description"
-        content="Mi nombre es Aitor Rodríguez, vivo en Barcelona y soy 👨‍💻 Frontend Engineer en Fotocasa y 👮 Cofundador y Administrador de MTBeros."
+        content="Mi nombre es Aitor Rodríguez, vivo en Barcelona y soy 👨‍💻 Frontend Engineer en Adevinta Spain y Fundador de 🗣️ MTBeros y 📰 Stadianeros."
       />
       <meta name="author" content="Aitor Rodríguez" />
       <meta httpEquiv="Content-Language" content="es" />
