@@ -1,24 +1,55 @@
-$nav-height: 50px;
+$nav-height: 90px;
+$nav-color: #ffca1e;
 
 .da-Nav {
-  align-content: center;
-  background-color: #ffca1e;
+  background-color: #222;
+  border-top: 8px solid $nav-color;
+  color: $nav-color;
   display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  justify-content: center;
   height: $nav-height;
-  justify-content: space-between;
-  line-height: $nav-height;
-  padding: 0 15px;
-  position: sticky;
-  top: 0;
-  z-index: 10;
+  letter-spacing: 1px;
+  line-height: #{$nav-height / 3};
+  padding: 10px 30px;
 
   &-menu {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 0;
     padding: 0;
 
     &Item {
       display: inline-block;
-      margin-left: 25px;
+      list-style: none;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    &Item:not(:last-of-type) {
+      margin: 0 10px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+    justify-content: flex-end;
+    line-height: $nav-height;
+    padding-top: 0;
+
+    &-menu {
+      &Item:not(:last-of-type) {
+        margin-right: 25px;
+      }
     }
   }
 }

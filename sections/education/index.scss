@@ -1,4 +1,4 @@
-.da-Experience {
+.da-Education {
   &-list {
     list-style: none;
     padding: 0;
@@ -42,7 +42,7 @@
         font-weight: 400;
       }
 
-      &Company {
+      &Center {
         font-weight: 600;
 
         &:before {
@@ -55,22 +55,8 @@
         font-weight: 200;
       }
 
-      &Description {
-        line-height: 1.5;
-      }
-
-      &Tech {
-        list-style: none;
-        padding: 3px 0 0;
-
-        li {
-          background-color: #ffca1e;
-          border-radius: 5px;
-          display: inline-block;
-          margin-bottom: 5px;
-          margin-right: 10px;
-          padding: 2px 5px;
-        }
+      &CertificateId {
+        font-weight: 500;
       }
     }
   }

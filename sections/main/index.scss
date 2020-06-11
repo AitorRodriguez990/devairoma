@@ -1,6 +1,8 @@
-$nav-height: 50px;
+$nav-height: 90px;
 
 .da-Main {
+  background: #222;
+  color: #fff;
   min-height: calc(100vh - #{$nav-height});
   padding-bottom: 100px;
 
@@ -62,35 +64,32 @@ $nav-height: 50px;
   }
 
   &-link {
-    color: #1991ff;
+    color: #fff;
     font-weight: 500;
     position: relative;
     text-decoration: none;
     transition: opacity 0.2s;
-  
-    &:after {
-      background-color: #1991ff;
-      bottom: 1px;
-      content: " ";
-      height: 8px;
-      left: -2px;
-      opacity: 0.3;
-      position: absolute;
-      transition: opacity 0.3s;
-      width: calc(100% + 4px);
-      z-index: -1;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &--mtberos {
+      &, &:hover {
+        color: #1991ff;
+      }
     }
   
-    &:hover:after {
-      opacity: 0.5;
+    &--adevinta {
+      &, &:hover {
+        color: #2900d2;
+      }
     }
-  
-    &--fotocasa {
-      color: #303ab2;
-    }
-    
-    &--fotocasa:after {
-      background-color: #303ab2;
+
+    &--stadianeros {
+      &, &:hover {
+        color: #cd0d23;
+      }
     }
   }
 }

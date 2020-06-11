@@ -12,13 +12,18 @@ export const Footer = () => {
           className={`${baseClass}-link`}
           href="https://nextjs.org/"
           target="_blank"
+          rel="nofollow noopener"
         >
           Next.js
         </a>
         .
         <ul className={`${baseClass}-social`}>
           <li>
-            <a href="https://github.com/AitorRodriguez990" target="_blank">
+            <a
+              href="https://github.com/AitorRodriguez990"
+              target="_blank"
+              rel="nofollow noopener"
+            >
               <img src="./static/github.svg" alt="GitHub" width="30" />
             </a>
           </li>
@@ -26,6 +31,7 @@ export const Footer = () => {
             <a
               href="https://www.linkedin.com/in/aitorrodriguezfrontend/"
               target="_blank"
+              rel="nofollow noopener"
             >
               <img src="./static/linkedin.svg" alt="LinkedIn" width="30" />
             </a>
@@ -34,6 +40,7 @@ export const Footer = () => {
             <a
               href="https://stackoverflow.com/users/4961667/aitor"
               target="_blank"
+              rel="nofollow noopener"
             >
               <img
                 src="./static/stack-overflow.svg"

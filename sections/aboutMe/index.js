@@ -29,11 +29,15 @@ export const AboutMe = ({id = ''}) => (
     </p>
     <p>
       Aplico metodología{' '}
-      <a href="https://gettingthingsdone.com/" target="_blank">
+      <a
+        href="https://gettingthingsdone.com/"
+        target="_blank"
+        rel="nofollow noopener"
+      >
         GTD
-      </a>{' '}
-      en mi día a día, para vivir y trabajar de la manera más organizada y
-      relajada posible.
+      </a>
+      <sup>&copy;</sup> en mi día a día, para vivir y trabajar de la manera más
+      organizada y relajada posible.
     </p>
   </Section>
 )

@@ -23,19 +23,30 @@ export const Main = ({id = ''}) => (
           Mi nombre es Aitor Rodríguez y vivo en Barcelona. Soy 👨‍💻{' '}
           <strong>Frontend Engineer</strong> en{' '}
           <a
-            className={`${baseClass}-link ${baseClass}-link--fotocasa`}
-            href="https://www.fotocasa.es"
+            className={`${baseClass}-link ${baseClass}-link--adevinta`}
+            href="https://www.adevinta.com/es/spain/"
             target="_blank"
+            rel="nofollow noopener"
           >
-            Fotocasa
+            Adevinta Spain
           </a>{' '}
-          y 👮 Cofundador y Administrador de{' '}
+          y Fundador de 🗣️{' '}
           <a
             className={`${baseClass}-link ${baseClass}-link--mtberos`}
             href="https://www.mtberos.com"
             target="_blank"
+            rel="nofollow noopener"
           >
             MTBeros
+          </a>{' '}
+          y 📰{' '}
+          <a
+            className={`${baseClass}-link ${baseClass}-link--stadianeros`}
+            href="https://www.stadianeros.com"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            Stadianeros
           </a>
           .
         </p>

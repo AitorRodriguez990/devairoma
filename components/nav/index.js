@@ -6,11 +6,7 @@ const baseClass = 'da-Nav'
 export const Nav = () => {
   return (
     <div className={baseClass}>
-      <div />
       <ul className={`${baseClass}-menu`}>
-        <li className={`${baseClass}-menuItem`}>
-          <a href="#main">Inicio</a>
-        </li>
         <li className={`${baseClass}-menuItem`}>
           <a href="#about-me">Sobre mí</a>
         </li>
@@ -18,7 +14,13 @@ export const Nav = () => {
           <a href="#experience">Experiencia</a>
         </li>
         <li className={`${baseClass}-menuItem`}>
-          <a href="#resources">Recursos</a>
+          <a href="#projects">Proyectos</a>
+        </li>
+        <li className={`${baseClass}-menuItem`}>
+          <a href="#education">Formación</a>
+        </li>
+        <li className={`${baseClass}-menuItem`}>
+          <a href="#contact">Contacto</a>
         </li>
       </ul>
     </div>

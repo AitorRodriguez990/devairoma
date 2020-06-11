@@ -6,7 +6,9 @@ import {Nav} from '../components/nav'
 import {Main} from '../sections/main'
 import {AboutMe} from '../sections/aboutMe'
 import {Experience} from '../sections/experience'
-import {Resources} from '../sections/resources'
+import {Projects} from '../sections/projects'
+import {Education} from '../sections/education'
+import {Contact} from '../sections/contact'
 import {Footer} from '../components/footer'
 
 const Home = () => (
@@ -27,7 +29,9 @@ const Home = () => (
     <Main id="main" />
     <AboutMe id="about-me" />
     <Experience id="experience" />
-    <Resources id="resources" />
+    <Projects id="projects" />
+    <Education id="education" />
+    <Contact id="contact" />
 
     <Footer />
   </div>
