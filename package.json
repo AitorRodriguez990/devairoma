@@ -10,7 +10,7 @@
     "deploy": "npm run build && npm run export"
   },
   "dependencies": {
-    "@s-ui/lint": "^3.9.0",
+    "@s-ui/lint": "^3.33.0",
     "next": "^11.0.1",
     "react-dom": "^17.0.2",
     "react": "^17.0.2",
