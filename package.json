@@ -1,6 +1,6 @@
 {
   "name": "devairoma",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,14 +11,15 @@
   },
   "dependencies": {
     "@s-ui/lint": "^3.9.0",
-    "@zeit/next-sass": "^1.0.1",
-    "next": "9.0.5",
-    "node-sass": "^4.12.0",
-    "react": "16.9.0",
-    "react-dom": "16.9.0"
+    "next": "^11.0.1",
+    "react-dom": "^17.0.2",
+    "react": "^17.0.2",
+    "sass": "^1.35.1"
   },
   "eslintConfig": {
-    "extends": ["./node_modules/@s-ui/lint/eslintrc.js"]
+    "extends": [
+      "./node_modules/@s-ui/lint/eslintrc.js"
+    ]
   },
   "stylelint": {
     "extends": "./node_modules/@s-ui/lint/stylelint.config.js"
