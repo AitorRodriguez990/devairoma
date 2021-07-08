@@ -17,6 +17,8 @@ const Home = () => (
               className={styles.image}
               src="/devairoma.jpg"
               alt="Aitor Rodríguez"
+              layout="fixed"
+              height="150"
               width="150"
             />
           </div>
