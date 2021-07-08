@@ -11,7 +11,7 @@ export const HeadMeta = () => {
       />
       <meta name="author" content="Aitor Rodríguez" />
       <meta httpEquiv="Content-Language" content="es" />
-      <link rel="icon" href="./static/favicon.png" />
+      <link rel="icon" href="/favicon.png" />
     </Head>
   )
 }

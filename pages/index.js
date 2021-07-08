@@ -15,7 +15,7 @@ const Home = () => (
           <div className={styles.avatar}>
             <Image
               className={styles.image}
-              src="./static/devairoma.jpg"
+              src="/devairoma.jpg"
               alt="Aitor Rodríguez"
               width="150"
             />
