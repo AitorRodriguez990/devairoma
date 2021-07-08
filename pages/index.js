@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import {HeadMeta} from '../components/headMeta'
 import {Footer} from '../components/footer'
 
@@ -12,7 +13,7 @@ const Home = () => (
       <div className="container">
         <div className={styles.home}>
           <div className={styles.avatar}>
-            <img
+            <Image
               className={styles.image}
               src="./static/devairoma.jpg"
               alt="Aitor Rodríguez"
@@ -27,7 +28,7 @@ const Home = () => (
               <a
                 href="https://adevinta.es/"
                 target="_blank"
-                rel="nofollow noopener"
+                rel="nofollow noopener noreferrer"
               >
                 Adevinta Spain
               </a>{' '}
@@ -35,7 +36,7 @@ const Home = () => (
               <a
                 href="https://www.mtberos.com/"
                 target="_blank"
-                rel="nofollow noopener"
+                rel="noreferrer nofollow noopener"
               >
                 MTBeros
               </a>{' '}
