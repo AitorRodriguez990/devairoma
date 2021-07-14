@@ -101,6 +101,7 @@ p {
   font-size: 1.15rem;
   margin: auto;
   max-width: 600px;
+  padding: 50px 0;
   width: 100vw;
 }
 
@@ -108,11 +109,23 @@ p {
   background: linear-gradient(to right, #424248 0%, #1991ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 2.25rem;
+  display: inline-block;
+  font-size: 3rem;
   font-weight: 700;
   -webkit-letter-spacing: -0.05em;
   -moz-letter-spacing: -0.05em;
   -ms-letter-spacing: -0.05em;
   letter-spacing: -0.05em;
   margin-bottom: var(--spacing-large);
+  padding-right: 4px; // Fix
+}
+
+.subtitle {
+  font-size: 1.75rem;
+  margin-bottom: var(--spacing-default);
+  margin-top: var(--spacing-large);
+
+  &:first-child {
+    margin-top: 0;
+  }
 }

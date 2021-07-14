@@ -10,7 +10,9 @@ const Home = () => (
   <div>
     <HeadMeta /> 
 
-    <div className="page">    
+    <div className="page">
+      <Header />
+    
       <div className="container">
         <div className={styles.home}>
           <div className={styles.avatar}>
@@ -23,9 +25,9 @@ const Home = () => (
               width="150"
             />
           </div>
-          <h1 className="title">👋 ¡Hola, mi nombre es Aitor Rodríguez!</h1>
+          <h1 className="title">👋 ¡Hola!</h1>
           <p className={styles.text}>
-            Soy{' '}
+            Mi nombre es Aitor Rodríguez. Soy{' '}
             <strong>Frontend Engineer</strong> en{' '}
             <a
               href="https://adevinta.es/"

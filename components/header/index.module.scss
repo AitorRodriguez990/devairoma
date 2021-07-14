@@ -1,0 +1,32 @@
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--spacing-default) var(--spacing-large);
+
+  .menu {
+    list-style: none;
+
+    li {
+      display: inline-block;
+
+      & + li {
+        margin-left: var(--spacing-default);
+      }
+
+      a {
+        border-bottom: none;
+        border-radius: var(--border-radius-default);
+        color: var(--color-secondary);
+        display: block;
+        padding: var(--spacing-default);
+        transition: var(--transition-default);
+
+        &:hover {
+          background-color: var(--background-default);
+        }
+      }
+    }
+  }
+}
