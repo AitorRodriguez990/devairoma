@@ -1,12 +1,6 @@
 .home {
-  display: flex;
-  flex-direction: var(--page-home-direction);
-  padding: var(--spacing-default);
-  width: 100%;
-
   .avatar {
-    margin-bottom: var(--spacing-default);
-    margin-right: var(--spacing-default);
+    margin-bottom: var(--spacing-large);
 
     .image {
       border-radius: 100%;
@@ -14,39 +8,25 @@
     }
   }
 
-  .details {
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.05);
-    padding: 50px;
+  .text {
+    line-height: 1.5;
+    margin-bottom: var(--spacing-large);
+  }
 
-    .wave {
+  .list {
+    list-style: none;
+    margin-top: var(--spacing-default);
+
+    .element {
+      align-items: center;
+      display: flex;
+      line-height: 1.2;
       margin-bottom: var(--spacing-default);
     }
-  
-    .text {
-      line-height: 1.5;
-      margin-bottom: var(--spacing-default);
-
-      & + .text {
-        margin-bottom: calc(var(--spacing-default) * 1.5);
-      }
-    }
-  
-    .list {
-      list-style: none;
-      margin-top: var(--spacing-default);
-  
-      .element {
-        align-items: center;
-        display: flex;
-        line-height: 1.2;
-        margin-bottom: var(--spacing-default);
-      }
-      
-      .dot {
-        margin-right: var(--spacing-default);
-      }
+    
+    .dot {
+      margin-right: var(--spacing-default);
     }
   }
+  
 }

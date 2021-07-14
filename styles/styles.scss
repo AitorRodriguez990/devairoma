@@ -1,8 +1,12 @@
 :root {
+  --background-default: rgb(251, 251, 251);
   --color-primary: #3991ff;
   --color-secondary: #383838;
-  --spacing-default: 15px;
+  --spacing-default: 16px;
+  --spacing-large: 32px;
   --page-home-direction: column;
+  --border-radius-default: 16px;
+  --transition-default: all ease-in 0.15s;
 }
 
 @media screen and (min-width: 720px) {
@@ -17,15 +21,21 @@ html {
 
 html,
 body {
-  background-color: #f1f1f1;
+  -moz-scroll-behavior: smooth;
+  -ms-scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -webkit-scroll-behavior: smooth;
+  background-color: var(--background-default);
   box-sizing: border-box;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, 'Avenir Next', Avenir, Helvetica, sans-serif;
+  font-size: 16px;
   margin: 0;
+  scroll-behavior: smooth;
+  text-rendering: optimizelegibility;
 }
 
 body {
-  letter-spacing: 0.5px;
   overflow-x: hidden;
 }
 
@@ -68,9 +78,16 @@ a:hover {
   text-decoration: none;
 }
 
-
 iframe {
   border: 0;
+}
+
+p {
+  line-height: 1.5;
+
+  + p {
+    margin-top: var(--spacing-default);
+  }
 }
 
 .page {
@@ -81,8 +98,21 @@ iframe {
 
 .container {
   align-items: center;
-  display: flex;
+  font-size: 1.15rem;
   margin: auto;
-  max-width: 800px;
+  max-width: 600px;
   width: 100vw;
+}
+
+.title {
+  background: linear-gradient(to right, #424248 0%, #1991ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.25rem;
+  font-weight: 700;
+  -webkit-letter-spacing: -0.05em;
+  -moz-letter-spacing: -0.05em;
+  -ms-letter-spacing: -0.05em;
+  letter-spacing: -0.05em;
+  margin-bottom: var(--spacing-large);
 }
