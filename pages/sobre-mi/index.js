@@ -20,7 +20,7 @@ const About = () => (
             Nací en el 1990. Actualmente, y desde hace ya muchos años, vivo en un pueblo grande (o ciudad pequeña) de los alrededores de Barcelona.
           </p>
           <p>
-            Hay muchas cosas que soy y que hago y que creo que son importantes para definir el como soy:
+            Hay muchas cosas qué soy y qué hago y que creo que son importantes para definir el cómo soy:
           </p>
 
           <h2 className="subtitle">👪 <span>La familia es lo primero</span></h2>
@@ -39,18 +39,41 @@ const About = () => (
             Aunque no siempre han convivido todos los deportes a la vez, porque el tiempo y la energía son limitados, <strong>siempre he estado practicado algún deporte regularmente</strong>. Aunque debo reconocer que también he tenido épocas en las que la falta de motivación y, porque no decirlo, la estupidez, me han empujado a una vida más sedentaria.
           </p>
           <p>
-            En familia, y eso incluye ahora a Duc (nuestro perro), siempre que podemos nos escapamos a la naturaleza a hacer senderismo, o turismo rural (<em>¡que también cansa!</em>).
+            En familia, y eso incluye ahora a Duc (nuestro perro), siempre que podemos nos escapamos a la naturaleza a hacer senderismo o turismo rural (<em>¡que también cansa!</em>).
           </p>
           <p>
             En el futuro <strong>me gustaría prepararme para ser capaz de finalizar un <em>Ironman 70.3</em></strong>. Y sí, ¡lo dejo por escrito para que quede constancia!
           </p>
-          <p></p>
 
           <h2 className="subtitle">📚 <span>Esas aficiones enriquecedoras</span></h2>
-          <p>En construcción.</p>
+          <p>
+            <strong>Leer es algo que hago prácticamente cada día</strong> si el sueño no me atrapa antes, ya que lo hago al acostarme; es el momento tranquilo del día y me ayuda a relajarme. 
+          </p>
+
+          <p>
+            <em>&quot;¿Mi género favorito?&quot;</em> Cómo también me pasa con la música, no me cierro a un único tipo, aunque en el caso de los libros sí suelo priorizar la ciencia ficción, el suspense y los <em>thrillers</em>. Recientemente también he leído algo de psicología, historia y ensayos.
+          </p>
+
+          <p>
+            También dedico algunas noches a ver alguna <strong>serie en pareja cuando la tranquilidad se adeuña de la casa</strong>, que suele coincidir cuando el pequeño de la casa se va a dormir (¡qué raro!).
+          </p>
+
+          <p>
+            Las películas en solitario se reservan para raras ocasiones, y prácticamente nunca son <em>blockbusters</em>. Las <strong>películas que sí son especiales</strong> son las de rejalarse en familia en el sofá los sábados por la tarde.
+          </p>
 
           <h2 className="subtitle">🌍 <span>Vooolaaaré</span></h2>
-          <p>En construcción.</p>
+          <p>
+            Aunque <strong>lo hago mucho menos de lo que me querría</strong>, viajar es algo que me gusta mucho (<em>¡¿y a quien no?!</em>) y una de las aficiones que comparto con mi pareja.
+          </p>
+
+          <p>
+            El ahorro para una boda y la posterior compra de una vivienda, un embarazo y un niño pequeño son algunas de las cosas que te impiden viajar todo lo que querrías. <em>Pero quien algo quiere algo le cuesta, ¿no?</em> <strong>A veces hay que sacrificarse en pos de cosas mejores</strong>.
+          </p>
+
+          <p>
+            Marrakech me sorprendió para bien, ya que fui de imprevisto y sin grandes expectativas y acabó siendo un viaje muy divertido y enriquecedor; por el contrario, Bali, que aunque me gustó creo que va a envejecer muy mal debido a su suciedad y tráfico.
+          </p>
 
           <h2 className="subtitle">🕺 <span>Soft skills</span></h2>
           <p>En construcción.</p>
