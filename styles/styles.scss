@@ -1,18 +1,14 @@
 :root {
   --background-default: rgb(251, 251, 251);
+  --border-default: #eaeaea;
   --color-primary: #3991ff;
   --color-secondary: #383838;
+  --color-white: #fff;
   --spacing-default: 16px;
+  --spacing-small: 8px;
   --spacing-large: 32px;
-  --page-home-direction: column;
   --border-radius-default: 16px;
   --transition-default: all ease-in 0.15s;
-}
-
-@media screen and (min-width: 720px) {
-  :root {
-    --page-home-direction: row;
-  }
 }
 
 html {
@@ -124,6 +120,12 @@ p {
   font-size: 1.75rem;
   margin-bottom: var(--spacing-default);
   margin-top: var(--spacing-large);
+
+  span {
+    background: linear-gradient(to right, #424248 0%, #666 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
   &:first-child {
     margin-top: 0;

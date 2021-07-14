@@ -15,17 +15,20 @@ const Home = () => (
     
       <div className="container">
         <div className={styles.home}>
-          <div className={styles.avatar}>
-            <Image
-              className={styles.image}
-              src="/devairoma.jpg"
-              alt="Aitor Rodríguez"
-              layout="fixed"
-              height="150"
-              width="150"
-            />
+          <div className={styles.main}>
+            <div className={styles.avatar}>
+              <Image
+                className={styles.image}
+                src="/devairoma.jpg"
+                alt="Aitor Rodríguez"
+                layout="fixed"
+                height="130"
+                width="130"
+              />
+            </div>
+            <h1 className="title">👋 ¡Hola!</h1>
           </div>
-          <h1 className="title">👋 ¡Hola!</h1>
+          
           <p className={styles.text}>
             Mi nombre es Aitor Rodríguez. Soy{' '}
             <strong>Frontend Engineer</strong> en{' '}

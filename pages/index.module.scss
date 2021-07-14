@@ -1,6 +1,12 @@
 .home {
+  .main {
+    align-items: center;
+    display: flex;
+  }
+
   .avatar {
     margin-bottom: var(--spacing-large);
+    margin-right: var(--spacing-default);
 
     .image {
       border-radius: 100%;

@@ -23,7 +23,7 @@ const About = () => (
             Hay muchas cosas que soy y que hago y que creo que son importantes para definir el como soy:
           </p>
 
-          <h2 className="subtitle">👪 La familia es lo primero</h2>
+          <h2 className="subtitle">👪 <span>La familia es lo primero</span></h2>
           <p>
             En todas las decisiones que debo tomar <strong>la prioridad siempre será mi familia</strong>, o al menos eso intento siempre.
           </p>
@@ -31,7 +31,7 @@ const About = () => (
             Eso incluye al pequeño terremoto de casi 3 años que tengo por hijo, y el cual ha cambiado completamente mi vida y forma de pensar, a mi alegre compañera desde hace ya más de 10 años y gracias a la cual soy una mejor versión de mi mismo, a mi peludo gato y a mi incansable perro.
           </p>
 
-          <h2 className="subtitle">🏅 La vida no sin deporte</h2>
+          <h2 className="subtitle">🏅 <span>La vida no sin deporte</span></h2>
           <p>
             Desde antes de la adolescencia el deporte ya formaba parte de mi vida. Primero con el básquet y más tarde con el <em>running</em>, el <em>trail running</em> y el ciclismo de montaña.
           </p>
@@ -46,16 +46,16 @@ const About = () => (
           </p>
           <p></p>
 
-          <h2 className="subtitle">📚 Esas aficiones enriquecedoras</h2>
+          <h2 className="subtitle">📚 <span>Esas aficiones enriquecedoras</span></h2>
           <p>En construcción.</p>
 
-          <h2 className="subtitle">🌍 Vooolaaaré</h2>
+          <h2 className="subtitle">🌍 <span>Vooolaaaré</span></h2>
           <p>En construcción.</p>
 
-          <h2 className="subtitle">🕺 Soft skills</h2>
+          <h2 className="subtitle">🕺 <span>Soft skills</span></h2>
           <p>En construcción.</p>
 
-          <h2 className="subtitle">👨‍💻 Hard skills</h2>
+          <h2 className="subtitle">👨‍💻 <span>Hard skills</span></h2>
           <p>En construcción.</p>
         </div>
       </div>

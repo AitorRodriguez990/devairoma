@@ -1,9 +1,14 @@
 .header {
-  background-color: #fff;
-  border-bottom: 1px solid #eaeaea;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--border-default);
   display: flex;
   justify-content: space-between;
-  padding: var(--spacing-default) var(--spacing-large);
+  padding: var(--spacing-small) var(--spacing-large);
+
+  @media screen and (min-width: 720px) {
+    padding-bottom: var(--spacing-default);
+    padding-top: var(--spacing-default);
+  }
 
   .menu {
     list-style: none;
@@ -24,7 +29,7 @@
         transition: var(--transition-default);
 
         &:hover {
-          background-color: var(--background-default);
+          background-color: var(--border-default);
         }
       }
     }
