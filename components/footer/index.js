@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './index.module.scss'
 
-export const Footer = () => {
+export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (

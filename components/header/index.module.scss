@@ -3,7 +3,7 @@
   border-bottom: 1px solid var(--border-default);
   display: flex;
   justify-content: space-between;
-  padding: var(--spacing-small) var(--spacing-large);
+  padding: var(--spacing-small) var(--spacing-default);
 
   @media screen and (min-width: 720px) {
     padding-bottom: var(--spacing-default);
@@ -17,7 +17,11 @@
       display: inline-block;
 
       & + li {
-        margin-left: var(--spacing-default);
+        margin-left: var(--spacing-small);
+
+        @media screen and (min-width: 720px) {
+          margin-left: var(--spacing-default);
+        }
       }
 
       a {

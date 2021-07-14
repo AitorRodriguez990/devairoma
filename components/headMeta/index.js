@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Head from 'next/head'
 
-export const HeadMeta = ({section = ''}) => {
+export default function HeadMeta({section = ''}) {
   const name = "Aitor Rodríguez"
   var title = `${name} | Desarrollo y lanzo proyectos 🚀`
 

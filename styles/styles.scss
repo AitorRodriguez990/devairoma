@@ -97,8 +97,12 @@ p {
   font-size: 1.15rem;
   margin: auto;
   max-width: 800px;
-  padding: 50px var(--spacing-large);
+  padding: var(--spacing-large) var(--spacing-default);
   width: 100vw;
+
+  @media screen and (min-width: 720px) {
+    padding: 50px var(--spacing-large);
+  }
 }
 
 .title {
@@ -106,7 +110,7 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
-  font-size: 3rem;
+  font-size: 2.75rem;
   font-weight: 700;
   -webkit-letter-spacing: -0.05em;
   -moz-letter-spacing: -0.05em;
@@ -114,6 +118,10 @@ p {
   letter-spacing: -0.05em;
   margin-bottom: var(--spacing-large);
   padding-right: 4px; // Fix
+
+  @media screen and (min-width: 720px) {
+    font-size: 3rem;
+  }
 }
 
 .subtitle {
