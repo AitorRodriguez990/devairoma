@@ -43,15 +43,12 @@ const About = () => (
       <p>
         <strong>Leer es algo que hago prácticamente cada día</strong> si el sueño no me atrapa antes, ya que lo hago al acostarme; es el momento tranquilo del día y me ayuda a relajarme. 
       </p>
-
       <p>
         <em>&quot;¿Mi género favorito?&quot;</em> Cómo también me pasa con la música, no me cierro a un único tipo, aunque en el caso de los libros sí suelo priorizar la ciencia ficción, el suspense y los <em>thrillers</em>. Recientemente también he leído algo de psicología, historia y ensayos.
       </p>
-
       <p>
         También dedico algunas noches a ver alguna <strong>serie en pareja cuando la tranquilidad se adeuña de la casa</strong>, que suele coincidir cuando el pequeño de la casa se va a dormir (¡qué raro!).
       </p>
-
       <p>
         Las películas en solitario se reservan para raras ocasiones, y prácticamente nunca son <em>blockbusters</em>. Las <strong>películas que sí son especiales</strong> son las de rejalarse en familia en el sofá los sábados por la tarde.
       </p>
@@ -60,11 +57,9 @@ const About = () => (
       <p>
         Aunque <strong>lo hago mucho menos de lo que me querría</strong>, viajar es algo que me gusta mucho (<em>¡¿y a quien no?!</em>) y una de las aficiones que comparto con mi pareja.
       </p>
-
       <p>
         El ahorro para una boda y la posterior compra de una vivienda, un embarazo y un niño pequeño son algunas de las cosas que te impiden viajar todo lo que querrías. <em>Pero quien algo quiere algo le cuesta, ¿no?</em> <strong>A veces hay que sacrificarse en pos de cosas mejores</strong>.
       </p>
-
       <p>
         Marrakech me sorprendió para bien, ya que fui de imprevisto y sin grandes expectativas y acabó siendo un viaje muy divertido y enriquecedor; por el contrario, Bali, que aunque me gustó creo que va a envejecer muy mal debido a su suciedad y tráfico.
       </p>
@@ -73,18 +68,22 @@ const About = () => (
       <p>
         También denominadas &quot;habilidades blandas&quot;, hay varias características de mi personalidad que creo son muy positivas:
       </p>
-
       <p>
-        Soy <strong>autodidacta y lo he sido durante toda mi etapa profesional</strong> después de haber estudiado Administración de Sistemas Informáticos, haber trabajado durante años de ello, y haberme dado cuenta de que me gustaba mucho más el desarrollo web y diferentes partes del proceso de creación de un producto digital.
+        Aunque de primeras puedo ser un poco introvertido, enseguida que cojo confianza <strong>soy una persona simpática a la que le gusta bromear y hablar de todo</strong>.
       </p>
-
       <p>
-        
+        He sido <strong>autodidacta</strong>, y lo sigo siendo, durante toda mi etapa profesional después de haber estudiado Administración de Sistemas Informáticos, haber trabajado durante años de ello, y haberme dado cuenta de que me gustaba mucho más el desarrollo web y diferentes partes del proceso de creación de un producto digital.
+      </p>
+      <p>
+        <strong>Me encanta trabajar en equipo y a poder ser en colaboración con diferentes perfiles</strong>, ya que esto permite tanto aprender del resto de miembros del equipo como retar y ser retado en la toma de decisiones.
+      </p>
+      <p>
+        Además, <strong>soy una persona muy crítica</strong> con el trabajo que hago y con el que realizan otros, ya que es una de las mejores formas de mejorar y aprender. Obviamente, siendo siempre constructivo al dar ese <em>feedback</em>; que también me lo den es un regalo.
       </p>
 
       <h2 className="subtitle">👨‍💻 <span>Hard skills</span></h2>
       <p>
-        Al final, es en <a href="https://www.linkedin.com/in/aitorrodriguezfrontend/" target="_blank" rel="noreferrer">mi LinkedIn</a> donde mejor se va a poder leer y conocer sobre mi experiencia profesional.
+        Aquí podría rellenar líneas y líneas de siglas y tecnicismos, pero será más práctico visitar <a href="https://www.linkedin.com/in/aitorrodriguezfrontend/" target="_blank" rel="noreferrer">mi LinkedIn</a> qué es donde mejor se va a poder <strong>leer y conocer sobre mi experiencia profesional</strong> a lo largo de los años.
       </p>
     </div>
   </>
