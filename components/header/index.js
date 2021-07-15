@@ -9,6 +9,7 @@ export default function Header() {
       <ul className={styles.menu}>
         <li><Link href="/">Inicio</Link></li>
         <li><Link href="/sobre-mi">Sobre mí</Link></li>
+        <li><Link href="/proyectos">Proyectos</Link></li>
       </ul>
     </header>
   )

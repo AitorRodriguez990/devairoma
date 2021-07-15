@@ -1,15 +1,14 @@
 import React from 'react'
 import HeadMeta from '../../components/headMeta'
 
-import styles from './index.module.scss'
+export default function About() {
+  const title = "Sobre mí"
 
-const About = () => (
-  <>
-    <HeadMeta section="Sobre mí" />
+  return (
+    <>
+      <HeadMeta section={title} />
+      <h1 className="title">{title}</h1>
 
-    <h1 className="title">Sobre mí</h1>
-
-    <div className={styles.about}>
       <p>
         Nací en el 1990. Actualmente, y desde hace ya muchos años, vivo en un pueblo grande (o ciudad pequeña) de los alrededores de Barcelona.
       </p>
@@ -85,8 +84,6 @@ const About = () => (
       <p>
         Aquí podría rellenar líneas y líneas de siglas y tecnicismos, pero será más práctico visitar <a href="https://www.linkedin.com/in/aitorrodriguezfrontend/" target="_blank" rel="noreferrer">mi LinkedIn</a> qué es donde mejor se va a poder <strong>leer y conocer sobre mi experiencia profesional</strong> a lo largo de los años.
       </p>
-    </div>
-  </>
-)
-
-export default About
+    </>
+  )
+}
