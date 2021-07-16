@@ -66,11 +66,14 @@ li {
 a {
   border-bottom: 2px solid var(--color-primary);
   color: var(--color-primary);
+  font-weight: 500;
   text-decoration: none;
+  transition: var(--transition-default);
 }
 
 a:hover {
-  border-bottom: none;
+  background-color: var(--color-primary);
+  color: var(--color-white);
   text-decoration: none;
 }
 
@@ -137,5 +140,13 @@ p {
 
   &:first-child {
     margin-top: 0;
+  }
+}
+
+.small {
+  font-size: 0.75rem;
+  
+  & + .small {
+    margin-top: var(--spacing-small);
   }
 }
