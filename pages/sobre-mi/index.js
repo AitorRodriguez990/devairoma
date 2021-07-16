@@ -65,7 +65,7 @@ export default function About() {
 
       <h2 className="subtitle">🕺 <span>Soft skills</span></h2>
       <p>
-        También denominadas &quot;habilidades blandas&quot;, hay varias características de mi personalidad que creo son muy positivas:
+        También denominadas <em>habilidades blandas</em>, hay varias características de mi personalidad que creo son muy positivas:
       </p>
       <p>
         Aunque de primeras puedo ser un poco introvertido, enseguida que cojo confianza <strong>soy una persona simpática a la que le gusta bromear y hablar de todo</strong>.
@@ -81,6 +81,9 @@ export default function About() {
       </p>
 
       <h2 className="subtitle">👨‍💻 <span>Hard skills</span></h2>
+      <p>
+        A modo de resumen: Soy <strong>Frontend Engineer con fuertes conocimientos de JavaScript, React y SASS</strong>. Además, trabajo diariamente con tecnologías y herramientas como Cypress, Git, GitHub, ...
+      </p>
       <p>
         Aquí podría rellenar líneas y líneas de siglas y tecnicismos, pero será más práctico visitar <a href="https://www.linkedin.com/in/aitorrodriguezfrontend/" target="_blank" rel="noreferrer">mi LinkedIn</a> qué es donde mejor se va a poder <strong>leer y conocer sobre mi experiencia profesional</strong> a lo largo de los años.
       </p>
