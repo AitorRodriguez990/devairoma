@@ -38,8 +38,19 @@ export default function Projects() {
 
       <h2 className="subtitle">🔴 <span>Stadianeros</span></h2>
       <p>
-        <em>En construcción.</em>
+        Mi interés por <a href="https://stadia.com/" target="_blank" rel="noreferrer">Stadia</a>, las ganas de fundar un blog y el descubrimiento del <em>framework</em> de desarrollo <a href="https://gohugo.io/" target="_blank" rel="noreferrer">Hugo</a> en la misma época dio lugar a este proyecto.
       </p>
+      <p>
+        Este blog bajo el nombre de Stadianeros <strong>se desarrolló totalmente desde 0, tanto en diseño como funcionalidades y SEO, buscando en todo momento la optimización y carga de velocidad</strong>. También fui responsable de la redacción de contenidos en sus inicios y posteriormente de la gestión y priorización del <em>backlog para</em> el equipo de redactores que acabó formando parte del proyecto.
+      </p>
+      <p>
+        El proyecto <strong>se vendió después de 1 año desde su lanzamiento</strong>, aunque el comprador decidió migrarlo a <em>WordPress</em> aprovechando únicamente el contenido.
+      </p>
+      <p>
+        El <a href="https://github.com/AitorRodriguez990/stadianeros-blog" target="_blank" rel="noreferrer">código fuente</a> del desarrollo hecho está disponible para echarle un ojo.
+      </p>
+
+      
 
       <h2 className="subtitle">🟢 <span>Ciclismo a gas</span></h2>
       <p>
