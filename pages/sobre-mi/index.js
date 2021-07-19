@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import HeadMeta from '../../components/headMeta'
 
 export default function About() {
@@ -34,6 +35,15 @@ export default function About() {
       <p>
         En familia, y eso incluye ahora a Duc (nuestro perro), siempre que podemos nos escapamos a la naturaleza a hacer senderismo o turismo rural (<em>¡que también cansa!</em>).
       </p>
+      <div className="image">
+        <Image
+          alt="El Valle de Pineta en Huesca"
+          height="321"
+          layout="responsive"
+          src="/el-valle-de-pineta-huesca.jpg"
+          width="800"
+        />
+      </div>
       <p>
         En el futuro <strong>me gustaría prepararme para ser capaz de finalizar un <em>Ironman 70.3</em></strong>. Y sí, ¡lo dejo por escrito para que quede constancia!
       </p>

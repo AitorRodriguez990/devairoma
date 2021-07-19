@@ -150,3 +150,10 @@ p {
     margin-top: var(--spacing-small);
   }
 }
+
+.image {
+  border-radius: var(--border-radius-default);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  margin: var(--spacing-large) 0;
+  overflow: hidden;
+}
