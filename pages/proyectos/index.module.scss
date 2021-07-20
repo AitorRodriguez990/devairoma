@@ -1,10 +1,23 @@
-.projects {
-  .project {
-    background-color: var(--color-white);
-    border: 1px solid var(--border-default);
-    border-radius: var(--border-radius-default);
-    justify-content: space-between;
-    margin-top: var(--spacing-large);
-    padding: var(--spacing-large);
+
+
+.steps {
+  list-style: none;
+  margin-top: calc(var(--spacing-small) * -1);
+
+  li {
+    color: var(--color-secondary-soft);
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: var(--spacing-default);
+    
+    & + li {
+      margin-left: var(--spacing-small);
+
+      &:before {
+        content: "|";
+        padding-right: var(--spacing-small);
+      }
+    }
   }
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import HeadMeta from '../../components/headMeta'
+import styles from './index.module.scss'
 
 export default function Projects() {
   const title = 'Proyectos'
@@ -17,6 +18,11 @@ export default function Projects() {
       </p>
 
       <h2 className="subtitle">🟢 <span>MTBeros</span></h2>
+      <ul className={styles.steps}>
+        <li>
+          🚀 14 de mayo de 2014
+        </li>
+      </ul>
       <p>
         Lo que comenzó como un simple <em>hobbie</em> en el año 2014, se ha acabado convirtiendo en uno de los lugares de <strong>referencia del ciclismo de montaña</strong> donde debatir, resolver dudas, buscar compañeros de ruta y descubrir ofertas.
       </p>
@@ -36,7 +42,31 @@ export default function Projects() {
         ** Media mensual a partir de los datos del año 2020.
       </p>
 
+      <h2 className="subtitle">🟢 <span>Ciclismo a gas</span></h2>
+      <ul className={styles.steps}>
+        <li>
+          🚀 30 de junio de 2021
+        </li>
+      </ul>
+      <p>
+        En uno de mis momentos lúcidos me vino a la mente la idea de <strong>aprender a automatizar las publicaciones en Telegram a través un bot</strong>, y eso hice.
+      </p>
+      <p>
+        Abrí Google buscando diferentes recursos para ello, pregunté también en <a href="https://sinoficina.com/" target="_blank" rel="noreferrer">SinOficina</a> más tarde, y acabé creando un <a href="https://t.me/ciclismo_a_gas" target="_blank" rel="noreferrer">canal de Telegram de noticias de ciclismo</a> donde <strong>se publican automáticamente las noticias de más de 15 medios especializados</strong>.
+      </p>
+      <p>
+        Y en ello andamos, viendo como hacer que crezca poco a poco en número de suscriptores.
+      </p>
+
       <h2 className="subtitle">🔴 <span>Stadianeros</span></h2>
+      <ul className={styles.steps}>
+        <li>
+          🚀 29 de diciembre de 2019
+        </li>
+        <li>
+          💀 20 de noviembre de 2020
+        </li>
+      </ul>
       <p>
         Mi interés por <a href="https://stadia.com/" target="_blank" rel="noreferrer">Stadia</a>, las ganas de fundar un blog y el descubrimiento del <em>framework</em> de desarrollo <a href="https://gohugo.io/" target="_blank" rel="noreferrer">Hugo</a> en la misma época dio lugar a este proyecto.
       </p>
@@ -48,13 +78,6 @@ export default function Projects() {
       </p>
       <p>
         El <a href="https://github.com/AitorRodriguez990/stadianeros-blog" target="_blank" rel="noreferrer">código fuente</a> del desarrollo hecho está disponible para echarle un ojo.
-      </p>
-
-      
-
-      <h2 className="subtitle">🟢 <span>Ciclismo a gas</span></h2>
-      <p>
-        <em>En construcción.</em>
       </p>
 
       <h2 className="subtitle">🔴 <span>Excusas</span></h2>
