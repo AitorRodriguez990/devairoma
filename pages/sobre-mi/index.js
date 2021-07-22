@@ -40,6 +40,7 @@ export default function About() {
           alt="El Valle de Pineta en Huesca"
           height="321"
           layout="responsive"
+          quality="100"
           src="/el-valle-de-pineta-huesca.jpg"
           width="800"
         />

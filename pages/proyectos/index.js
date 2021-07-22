@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import HeadMeta from '../../components/headMeta'
 import styles from './index.module.scss'
 
@@ -29,6 +30,16 @@ export default function Projects() {
       <p>
         Actualmente forman parte de <a href="https://www.mtberos.com" target="_blank" rel="noreferrer">MTBeros</a> <strong>más de 11.500 usuarios registrados</strong>, los cuales han abierto más de 13.500 temas en los que se han escrito más de 320.000 mensajes*. Además, <strong>más de 80.000 usuarios mensuales</strong> a través de 130.000 sesiones visitan el foro, consumiendo más de 320.000 páginas vistas**.
       </p>
+      <div className="image">
+        <Image
+          alt="Analytics MTBeros"
+          height="580"
+          layout="responsive"
+          quality="100"
+          src="/analytics-mtberos.png"
+          width="800"
+        />
+      </div>
       <p>
         Aunque un grupo de personas me ayuda con la moderación del contenido, y otra persona con lo relativo a los servidores, <strong>yo mismo me encargo de prácticamente todo</strong> el resto. <em>&quot;¿Qué significa eso?&quot;</em> Pues que he tenido que aprender desde tratar con la gente (<em>&quot;¡y eso cuesta mucho!&quot;</em>), pasando por redacción y comunicación, email marketing, redes sociales, monetización y más tarde facturación (<em>&quot;hacienda somos todos&quot;</em>).
       </p>  
@@ -73,6 +84,16 @@ export default function Projects() {
       <p>
         Este blog bajo el nombre de Stadianeros <strong>se desarrolló totalmente desde 0, tanto en diseño como funcionalidades y SEO, buscando en todo momento la optimización y carga de velocidad</strong>. También fui responsable de la redacción de contenidos en sus inicios y posteriormente de la gestión y priorización del <em>backlog para</em> el equipo de redactores que acabó formando parte del proyecto.
       </p>
+      <div className="image">
+        <Image
+          alt="Stadianeros"
+          height="524"
+          layout="responsive"
+          quality="100"
+          src="/stadianeros.jpeg"
+          width="800"
+        />
+      </div>
       <p>
         El proyecto <strong>se vendió después de 1 año desde su lanzamiento</strong>, aunque el comprador decidió migrarlo a <em>WordPress</em> aprovechando únicamente el contenido.
       </p>
