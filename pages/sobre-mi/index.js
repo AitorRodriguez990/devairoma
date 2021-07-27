@@ -65,13 +65,13 @@ export default function About() {
 
       <h2 className="subtitle">🌍 <span>Vooolaaaré</span></h2>
       <p>
-        Aunque <strong>lo hago mucho menos de lo que me querría</strong>, viajar es algo que me gusta mucho (<em>¡¿y a quien no?!</em>) y una de las aficiones que comparto con mi pareja.
+        Aunque <strong>lo hago mucho menos de lo que querría</strong>, viajar es algo que me gusta mucho (<em>¡¿y a quien no?!</em>) y una de las aficiones que comparto con mi pareja.
       </p>
       <p>
         El ahorro para una boda y la posterior compra de una vivienda, un embarazo y un niño pequeño son algunas de las cosas que te impiden viajar todo lo que querrías. <em>Pero quien algo quiere algo le cuesta, ¿no?</em> <strong>A veces hay que sacrificarse en pos de cosas mejores</strong>.
       </p>
       <p>
-        Marrakech me sorprendió para bien, ya que fui de imprevisto y sin grandes expectativas y acabó siendo un viaje muy divertido y enriquecedor; por el contrario, Bali, que aunque me gustó creo que va a envejecer muy mal debido a su suciedad y tráfico.
+      <a href="https://es.wikipedia.org/wiki/Marrakech" target="_blank" rel="noreferrer">Marrakech</a> me sorprendió para bien, ya que fui de imprevisto y sin grandes expectativas y acabó siendo un viaje muy divertido y enriquecedor; por el contrario, Bali, que aunque me gustó creo que va a envejecer muy mal debido a su suciedad y tráfico.
       </p>
 
       <h2 className="subtitle">🕺 <span>Soft skills</span></h2>
